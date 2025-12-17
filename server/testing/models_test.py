@@ -1,6 +1,7 @@
+# server/testing/models_test.py
 from app import app
 from server.models import db, Earthquake
-from sqlalchemy_serializer import SerializerMixin
+from sqlalchemy_serializer import SerializerMixin # type: ignore
 
 
 class TestEarthquake:
